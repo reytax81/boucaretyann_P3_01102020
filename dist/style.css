@@ -1,4 +1,36 @@
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  background-color: black;
-  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+h1.title {
+  display: block;
+  font-family: "Shrikhand", cursive;
+  font-size: 6em;
+  text-align: center;
+}
+
+.container {
+  background-color: #c2bebe;
+  text-align: center;
+  height: 150px;
+}
+.container p {
+  font-size: 4em;
+  padding-top: 25px;
+}
+.container .fa-map-marker-alt {
+  display: block;
+  position: absolute;
+  left: 180px;
+}
+
+footer {
+  background-color: gray;
+  height: 500px;
 }
