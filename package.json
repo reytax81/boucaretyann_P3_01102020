@@ -1,0 +1,19 @@
+{
+  "name": "p3_yann_boucaret",
+  "version": "1.0.0",
+  "description": "projet3",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./style.scss:./dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reytax81/boucaretyann_P3_01102020.git"
+  },
+  "author": "yann boucaret",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reytax81/boucaretyann_P3_01102020/issues"
+  },
+  "homepage": "https://github.com/reytax81/boucaretyann_P3_01102020#readme"
+}
