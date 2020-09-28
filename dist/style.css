@@ -16,18 +16,51 @@ h1.title {
 }
 
 .container {
-  background-color: #c2bebe;
-  text-align: center;
+  background-color: #d8d1d1;
   height: 150px;
+  display: flex;
+  box-shadow: inset 0px 10px 10px #b5a8a8;
 }
 .container p {
-  font-size: 4em;
-  padding-top: 25px;
+  font-size: 3em;
 }
 .container .fa-map-marker-alt {
   display: block;
   position: absolute;
-  left: 180px;
+  left: 250px;
+}
+.container a {
+  display: block;
+  position: absolute;
+  left: 320px;
+  text-decoration: none;
+  color: black;
+}
+
+.txt {
+  text-align: center;
+  font-size: 2em;
+}
+.txt p {
+  font-size: 1.5em;
+}
+
+.btn {
+  text-align: center;
+}
+.btn .explored {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 55px;
+  background-color: #ff79da;
+  box-shadow: inset -86px -112px 42px -78px rgba(147, 86, 220, 0.63);
+}
+.btn .explored:active {
+  box-shadow: inset -86px -112px 42px 7px rgba(147, 86, 220, 0.63);
 }
 
 footer {
