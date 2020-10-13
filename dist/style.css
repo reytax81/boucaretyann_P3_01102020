@@ -8,6 +8,56 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.loader {
+  position: relative;
+  top: 33%;
+  right: 18%;
+  border-radius: 50%;
+  border: 6px solid #99e2d0;
+  width: 64%;
+  height: 32%;
+  animation: fadeout 3s linear;
+}
+
+.loader::after {
+  content: "";
+  position: relative;
+  top: -6px;
+  left: -6px;
+  width: 100%;
+  height: 100%;
+  border: 6px solid transparent;
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 3s linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    position: absolute;
+  }
+  90% {
+    position: absolute;
+  }
+  100% {
+    transform: rotate(360deg);
+    display: none;
+  }
+}
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+    position: absolute;
+  }
+  90% {
+    opacity: 1;
+    position: absolute;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 h1.title {
   display: block;
   font-family: "Shrikhand", cursive;
@@ -16,10 +66,10 @@ h1.title {
 }
 
 .container {
-  background-color: #d8d1d1;
+  background-color: #e2dddd;
   height: 150px;
   display: flex;
-  box-shadow: inset 0px 10px 10px #b5a8a8;
+  box-shadow: inset 0px 10px 10px #bfb4b4;
 }
 .container p {
   font-size: 3em;
@@ -39,11 +89,11 @@ h1.title {
 
 .txt {
   text-align: center;
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: 900;
 }
 .txt p {
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 100;
 }
 
@@ -67,35 +117,93 @@ h1.title {
 
 .titre {
   text-align: start;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding-top: 200px;
   padding-left: 20px;
+  margin-left: 50px;
   font-weight: 900;
 }
 
-article.menu-bar {
-  font-size: 3em;
-  text-align: center;
-  padding-top: 50px;
+.tuto {
+  font-size: 2.5rem;
+  margin-left: 80px;
+}
+.tuto li {
+  display: flex;
+  align-items: center;
+  border: solid #e2dddd 2px;
+  background-color: #e2dddd;
+  border-radius: 35px;
+  width: 85%;
+  margin-bottom: 100px;
+  box-shadow: 10px 10px 10px 10px white;
 }
 
-div.choice {
-  border: solid 2px black;
-  border-radius: 35px;
-  padding: 35px;
+.tuto li:hover {
+  background-color: #f2eafb;
 }
-div.composed {
-  border: solid 2px black;
-  border-radius: 35px;
-  padding: 35px;
+.tuto li:hover .fa-mobile-alt {
+  color: #9356dc;
 }
-div.eat {
-  border: solid 2px black;
-  border-radius: 35px;
-  padding: 35px;
+.tuto li:hover .fa-list-ul {
+  color: #9356dc;
+}
+.tuto li:hover .fa-store {
+  color: #9356dc;
+}
+
+.number {
+  border-radius: 80px;
+  border: solid 2px #9356dc;
+  margin-right: 70px;
+  margin-left: -25px;
+  width: 50px;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  background-color: #9356dc;
+  color: white;
+}
+
+.fa-mobile-alt {
+  margin-right: 75px;
+  color: gray;
+}
+
+.fa-list-ul {
+  margin-right: 60px;
+  color: gray;
+}
+
+.fa-store {
+  margin-right: 55px;
+  color: gray;
+}
+
+.restaurant {
+  display: flex;
+  object-fit: cover;
+  width: 75%;
+}
+
+.name {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
 }
 
 footer {
-  background-color: gray;
-  height: 500px;
+  background-color: #303030;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer li {
+  list-style-type: none;
 }
