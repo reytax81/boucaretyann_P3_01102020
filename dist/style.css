@@ -255,6 +255,16 @@ h1.title {
   margin-top: -12px;
 }
 
+.new {
+  display: flex;
+  float: inline-end;
+  margin-top: 25px;
+  margin-right: 20px;
+  padding: 5px;
+  background-color: #99e2D0;
+  color: #278870;
+}
+
 footer {
   background-color: #303030;
   color: white;
