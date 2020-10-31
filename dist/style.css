@@ -105,6 +105,7 @@ h1.title {
 
 .btn {
   text-align: center;
+  cursor: pointer;
 }
 .btn .explored {
   border: 0;
@@ -131,6 +132,7 @@ h1.title {
 .tuto {
   font-size: 1rem;
   width: 100%;
+  cursor: pointer;
 }
 .tuto li {
   display: flex;
@@ -204,11 +206,11 @@ h1.title {
 .restaurant {
   width: 318px;
   height: 248px;
-  margin-left: 20px;
+  margin-left: 15px;
   background-color: #fff;
-  /*background a changer */
   margin-bottom: 10%;
   border-radius: 15px;
+  box-shadow: 0px 3px 5px 2px #dddddd;
 }
 .restaurant p {
   margin-left: 10px;
@@ -289,8 +291,7 @@ h1.title {
   cursor: pointer;
   opacity: 1;
   transform: scale(1);
-  transform-origin: bottom;
-  background: -webkit-linear-gradient(#ff79da, #9356dc);
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -308,8 +309,11 @@ h1.title {
 }
 
 footer {
+  width: 100%;
   background-color: #303030;
   color: white;
+  margin-top: -15px;
+  padding-bottom: 20px;
 }
 
 footer a {
@@ -319,4 +323,24 @@ footer a {
 
 footer li {
   list-style-type: none;
+  line-height: 30px;
+}
+
+footer > h2 {
+  font-family: "Shrikhand", cursive;
+  font-size: medium;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.fa-hands-helping {
+  font-size: 12px;
+  margin-right: 8px;
+  margin-left: -20px;
+}
+
+.outil {
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: -20px;
 }
