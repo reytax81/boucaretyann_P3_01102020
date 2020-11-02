@@ -10,9 +10,14 @@
     <title>ohmyfood</title>
 </head>
 <body>
-    <section>
-        <span class="loader"></span>
-    </section>
+    <div class="loader">
+        <div class="loader__spinner">
+        </div>  
+        <div class="loader__bg">
+        </div>
+    </div>
+        
+   <div id="chargementPage"><!--Pour permettre l'affichage de la page après le load spinner<-->
     <section>
     <h1 class="title">ohmyfood</h1>
     <header>
@@ -125,8 +130,10 @@
                 <ul>
                 <li><i class="fas fa-utensils outil"></i>Proposer un restaurant</a></li>
                 <li><i class="fas fa-hands-helping hand"></i>Devenir partenaire</a></li>
+                <div class="mention">
                 <li>Mentions légales</a></li>
                 <li><a href="mailto:ohmyfood@orange.fr">Contact</a></li>
+                </div>
                 </ul>
             </nav>
     </footer>

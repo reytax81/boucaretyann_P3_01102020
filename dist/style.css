@@ -9,56 +9,6 @@ body, main {
   font-family: "Roboto", sans-serif;
 }
 
-.loader {
-  position: relative;
-  top: 33%;
-  right: 18%;
-  border-radius: 50%;
-  border: 6px solid #99e2d0;
-  width: 64%;
-  height: 32%;
-  animation: fadeout 3s linear;
-}
-
-.loader::after {
-  content: "";
-  position: relative;
-  top: -6px;
-  left: -6px;
-  width: 100%;
-  height: 100%;
-  border: 6px solid transparent;
-  border-top-color: white;
-  border-radius: 50%;
-  animation: spin 3s linear;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-    position: absolute;
-  }
-  90% {
-    position: absolute;
-  }
-  100% {
-    transform: rotate(360deg);
-    display: none;
-  }
-}
-@keyframes fadeout {
-  0% {
-    opacity: 1;
-    position: absolute;
-  }
-  90% {
-    opacity: 1;
-    position: absolute;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 h1.title {
   display: block;
   font-family: "Shrikhand", cursive;
@@ -314,7 +264,7 @@ h1.title {
 
 footer {
   width: 100%;
-  background-color: #303030;
+  background-color: #313132;
   color: white;
   margin-top: -15px;
   padding-bottom: 20px;
@@ -346,5 +296,9 @@ footer > h2 {
 .outil {
   font-size: 15px;
   margin-right: 10px;
+  margin-left: -20px;
+}
+
+.mention {
   margin-left: -20px;
 }
