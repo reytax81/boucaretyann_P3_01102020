@@ -611,13 +611,13 @@ h1{
   box-shadow: inset -86px -112px 42px -78px rgba(147,86,220,0.63);
 }
 .entree {
-  animation: revelation 700ms both ease-in-out;
+  animation: revelation 1000ms 200ms both ease-in-out;
 }
 .plat {
-  animation: revelation 700ms 400ms both ease-in-out;
+  animation: revelation 1000ms 500ms both ease-in-out;
 }
 .dessert {
-  animation: revelation 700ms 800ms both ease-in-out;
+  animation: revelation 1000ms 1000ms both ease-in-out;
 }
 
 @keyframes revelation {
@@ -674,7 +674,6 @@ h1{
 
 .elt:hover {
   background: transparentize($color-primary, 0.85);
-  /* Pour l'instant les deux actions (hover et active) sont mixées, mais à terme on aura le changement de couleur du background sur hover -pour uniformiser avec page d'accueil- et l'apparition de la case verte sur active*/
   cursor: pointer;
   .elt__price {
       transform: translateX(-70px);
