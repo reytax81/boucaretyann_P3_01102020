@@ -4,12 +4,14 @@
   "description": "projet3",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./style.scss:./dist/style.css"
+    "sass": "sass --watch ./style.scss:./dist/style.css",
+    "prefix": "postcss ./dist/style.css --use autoprefixer -d ./css/prefixed/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/reytax81/boucaretyann_P3_01102020.git"
   },
+  "browserslist": "last 4 version", 
   "author": "yann boucaret",
   "license": "ISC",
   "bugs": {
