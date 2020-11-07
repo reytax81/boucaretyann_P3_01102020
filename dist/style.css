@@ -3,6 +3,11 @@ body, html {
   padding: 0;
   margin: 0;
 }
+@media (min-width: 900px) {
+  body, html {
+    font-size: 1.3em;
+  }
+}
 
 body, main {
   height: 100%;
@@ -153,12 +158,23 @@ h1.title {
   box-shadow: inset 0px 10px 10px #c4c4c4;
   width: 100%;
 }
+@media (min-width: 900px) {
+  .container {
+    height: 100px;
+  }
+}
 .container p {
   display: flex;
   font-size: 1em;
   flex-direction: row;
   margin-left: 95px;
   padding-top: 15px;
+}
+@media (min-width: 900px) {
+  .container p {
+    margin-left: 35%;
+    padding-top: 30px;
+  }
 }
 .container a {
   text-decoration: none;
@@ -172,6 +188,11 @@ h1.title {
 .textButton {
   background-color: #f6f6f6;
   height: 280px;
+}
+@media (min-width: 900px) {
+  .textButton {
+    height: 400px;
+  }
 }
 
 .txt {
@@ -290,6 +311,7 @@ h1.title {
 .carte a:hover {
   color: #ff79da;
 }
+
 .restaurant {
   width: 318px;
   height: 248px;

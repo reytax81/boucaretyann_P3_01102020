@@ -38,6 +38,9 @@ $bg-color: #eaeaea;
 body, html{
     padding: 0;
     margin: 0;
+    @media (min-width: 900px){
+      font-size: 1.3em;
+    }
 }
 body, main{
   height: 100%;
@@ -187,6 +190,9 @@ h1{
 .container{
     background-color: $bg-color;
     height: 50px;
+    @media (min-width: 900px){
+      height: 100px;
+    }
     @include shadow-box;
     width: 100%;
     & p{
@@ -195,6 +201,10 @@ h1{
         flex-direction: row;
         margin-left: 95px;
         padding-top: 15px;
+        @media (min-width: 900px){
+          margin-left: 35%;
+          padding-top: 30px;
+        }
     }
     & a{
         text-decoration: none;
@@ -207,6 +217,9 @@ h1{
 .textButton{
   background-color: #f6f6f6;
   height: 280px;
+  @media (min-width: 900px){
+    height: 400px;
+  }
 }
 .txt{
     text-align: center;
