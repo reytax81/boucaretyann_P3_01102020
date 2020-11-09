@@ -158,23 +158,12 @@ h1.title {
   box-shadow: inset 0px 10px 10px #c4c4c4;
   width: 100%;
 }
-@media (min-width: 900px) {
-  .container {
-    height: 100px;
-  }
-}
 .container p {
   display: flex;
   font-size: 1em;
   flex-direction: row;
   margin-left: 95px;
   padding-top: 15px;
-}
-@media (min-width: 900px) {
-  .container p {
-    margin-left: 35%;
-    padding-top: 30px;
-  }
 }
 .container a {
   text-decoration: none;
@@ -188,11 +177,6 @@ h1.title {
 .textButton {
   background-color: #f6f6f6;
   height: 280px;
-}
-@media (min-width: 900px) {
-  .textButton {
-    height: 400px;
-  }
 }
 
 .txt {
@@ -710,4 +694,137 @@ footer > h2 {
 }
 .elt:hover .anim__circle {
   transform: rotate(360deg);
+}
+
+@media screen and (min-width: 480px) and (max-width: 710px) {
+  .container {
+    text-align: center;
+  }
+  .container p {
+    margin: 0;
+    margin-left: 35%;
+  }
+
+  .tuto {
+    width: 100%;
+  }
+  .tuto li {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 4%;
+  }
+
+  .carte h2 {
+    padding: 0;
+    margin: 4%;
+  }
+
+  .restaurant {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+  }
+
+  .imagejay, .imagestil, .imagetoa, .imagelouis {
+    width: 100%;
+  }
+}
+@media (max-width: 740px) and (orientation: landscape) {
+  .container {
+    text-align: center;
+  }
+  .container p {
+    margin: 0;
+    margin-left: 35%;
+  }
+
+  .tuto {
+    width: 100%;
+  }
+  .tuto li {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 4%;
+  }
+
+  .restaurant {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+  }
+
+  .imagejay, .imagestil, .imagetoa, .imagelouis {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .textButton {
+    height: 100%;
+    padding-bottom: 3.5%;
+  }
+
+  .container {
+    text-align: center;
+  }
+  .container p {
+    margin: 0;
+    margin-left: 40%;
+  }
+
+  .titre {
+    text-align: center;
+  }
+
+  .tuto {
+    width: 100%;
+  }
+  .tuto li {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 100px;
+    font-size: 1.5em;
+  }
+
+  .number {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5em;
+    margin-left: -35px;
+  }
+  .number p {
+    padding-left: 17px;
+  }
+
+  .carte {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .carte a {
+    margin-right: 20px;
+  }
+  .carte .restaurant {
+    margin-top: 30%;
+    height: 268px;
+    margin-left: -72%;
+  }
+  .carte .restaurant .new {
+    font-size: 0.7em;
+  }
 }
