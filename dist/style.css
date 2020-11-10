@@ -449,8 +449,9 @@ footer > h2 {
 }
 
 .mention {
+  margin: 0;
   margin-left: -20px;
-  margin-top: -3%;
+  margin-top: -15px;
 }
 
 /* création du css pour les pages restaurant */
@@ -627,6 +628,9 @@ footer > h2 {
   border-radius: 55px;
   background-color: #ff79da;
   box-shadow: inset -86px -112px 42px -78px rgba(147, 86, 220, 0.63);
+}
+.btn-order:hover {
+  background: linear-gradient(#9356dc, #ff79da);
 }
 
 .entree {

@@ -446,9 +446,9 @@ h1{
   margin-left: -20px;
 }
 .mention{
+  margin: 0;
   margin-left: -20px;
-  margin-top: -3%;
-
+  margin-top: -15px;
 } 
 
 /* création du css pour les pages restaurant */
@@ -626,6 +626,9 @@ h1{
   border-radius: 55px;
   background-color: $color-secondary;
   box-shadow: inset -86px -112px 42px -78px rgba(147,86,220,0.63);
+  &:hover{
+    background: linear-gradient($color-primary, $color-secondary);
+  }
 }
 .entree {
   animation: revelation 1000ms 200ms both ease-in-out;
@@ -924,8 +927,6 @@ h1{
     padding-top: 5%;
   }
 }
-
-
 
 
   
