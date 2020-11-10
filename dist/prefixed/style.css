@@ -824,7 +824,8 @@ footer > h2 {
             transform: translateY(10px);
   }
   100% {
-    opacity: 1;
+    opacity: 1;@import "./SASS/layout/pageresto";
+
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
