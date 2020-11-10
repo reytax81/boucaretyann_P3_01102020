@@ -4,7 +4,7 @@
   "description": "projet3",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./style.scss:./dist/style.css",
+    "sass": "sass --watch ./style.scss:./dist/prefixed/style.css",
     "prefix": "postcss ./dist/prefixed/style.css --use autoprefixer -d ./css/prefixed/"
   },
   "repository": {
