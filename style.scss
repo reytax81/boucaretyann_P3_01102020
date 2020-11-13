@@ -260,6 +260,7 @@ h1{
 .tuto{
     font-size: 1rem;
     width: 100%;
+    padding-left: 0;
     cursor: pointer;
     & li{    
         display: flex;
@@ -708,16 +709,17 @@ h1{
     text-align: center;
     & p{
       margin: 0;
-      margin-left: 35%;
+      margin-left: 30%;
 
     }
   } 
   .tuto{
     width: 100%;
+    margin-left: -25px;
     & li{
       margin: 0;
       padding: 0;
-      width: 60%;
+      width: 75%;
       text-align: center;
       margin-left: 20%;
       margin-right: 20%;
@@ -731,11 +733,11 @@ h1{
     }
   }
   .restaurant{
-    width: 60%;
+    width: 70%;
     margin: 0;
     padding: 0;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom: 5%;
   }
   .imagejay, .imagestil, .imagetoa, .imagelouis{
@@ -858,7 +860,7 @@ h1{
     padding-top: 5%;
   }
 }
-@media screen and (min-width: 1281px) and (max-width: 1440px){
+@media screen and (min-width: 1281px) and (max-width: 1439px){
   body{
     width: 100%;
   }
@@ -927,6 +929,75 @@ h1{
     padding-top: 5%;
   }
 }
+@media screen and (min-width: 1440px) and (max-width: 3840px){
+  body{
+    width: 100%;
+  }
+  .textButton{
+    height: 100%;
+    padding-bottom: 3.5%;
+  }
+  .container{
+    text-align: center;
+    & p{
+      margin: 0;
+      margin-left: 40%;
+    }
+  }
+  .titre{
+    text-align: center;
+  }
+  .tuto{
+    width: 100%;
+    & li{
+      width: 50%;
+      margin-left: 25%;
+      margin-right: 25%;  
+      height: 100px;
+      font-size: 1.5em;
+    }
+  }
+  .number{
+    width: 60px;
+    height: 60px;
+    font-size: 1.5em;
+    margin-left: -35px;
+    & p{
+      padding-left: 17px;
+    }
+  }
+  .carte{
+    & a{
+      display: inline-flex;
+      padding-left: 50px;
+    }
+    & .restaurant{
+      width: 280px;
+      height: 268px;
+      & .new{
+        font-size: 0.7em;
+      }
+    }
+  }
+  .imagejay, .imagestil, .imagetoa, .imagelouis{
+    width: 100%;
+  }
 
+
+  /*responsive des pages restaurant */
+  .header{
+    &__title{
+      margin-right: 25%;
+    }
+    &__arrow{
+      font-size: 1.2em;
+      margin-left: -150px;
+    }
+  }
+  .entree__heading{
+    padding-top: 5%;
+  }
+
+}
 
   
