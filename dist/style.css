@@ -214,8 +214,8 @@ h1.title {
   background-color: #ff79da;
   box-shadow: inset -86px -112px 42px -78px rgba(147, 86, 220, 0.63);
 }
-.btn .explored:active {
-  box-shadow: inset -86px -112px 42px 7px rgba(147, 86, 220, 0.63);
+.btn .explored:hover {
+  background: linear-gradient(#fface8, #ae80e5);
 }
 
 .titre {
@@ -631,7 +631,7 @@ footer > h2 {
   box-shadow: inset -86px -112px 42px -78px rgba(147, 86, 220, 0.63);
 }
 .btn-order:hover {
-  background: linear-gradient(#9356dc, #ff79da);
+  background: linear-gradient(#fface8, #ae80e5);
 }
 
 .entree {
@@ -702,6 +702,7 @@ footer > h2 {
   transform: rotate(360deg);
 }
 
+/* Mise en place des mediaQueries et des breakpoint du site  */
 @media screen and (min-width: 378px) and (max-width: 710px) {
   .container {
     text-align: center;
