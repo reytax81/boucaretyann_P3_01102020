@@ -35,6 +35,9 @@ $bg-color: #eaeaea;
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
+  display: flex;
+  justify-content: flex-end;
+
 }
 @mixin colorLight {
     background: linear-gradient($color-secondaryLight, $color-primaryLight);
@@ -382,10 +385,12 @@ h1{
 }
 .new{
   display: flex;
-  float: inline-end;
-  margin-top: 25px;
+  justify-content: flex-end;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 20px;
   margin-right: 20px;
-  padding: 5px;
+  padding: 2px;
   background-color: $color-tertiaire;
   @include newcolor;
 }

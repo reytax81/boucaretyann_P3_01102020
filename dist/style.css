@@ -329,6 +329,8 @@ h1.title {
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .imagestil {
@@ -338,6 +340,8 @@ h1.title {
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .imagetoa {
@@ -347,6 +351,8 @@ h1.title {
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .imagelouis {
@@ -356,6 +362,8 @@ h1.title {
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0px 0px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .name p {
@@ -369,10 +377,12 @@ h1.title {
 
 .new {
   display: flex;
-  float: inline-end;
-  margin-top: 25px;
+  justify-content: flex-end;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 20px;
   margin-right: 20px;
-  padding: 5px;
+  padding: 2px;
   background-color: #99e2D0;
   color: #278870;
 }
