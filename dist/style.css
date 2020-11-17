@@ -437,12 +437,11 @@ footer a {
 
 footer li {
   list-style-type: none;
-  line-height: 30px;
 }
 
 footer > h2 {
   font-family: "Shrikhand", cursive;
-  font-size: medium;
+  font-size: 1.2em;
   margin-left: 20px;
   padding-top: 20px;
 }
@@ -1007,6 +1006,10 @@ footer > h2 {
 
   .imagejay, .imagestil, .imagetoa, .imagelouis {
     width: 100%;
+  }
+
+  .mention {
+    margin-top: -25px;
   }
 
   /*responsive des pages restaurant */
