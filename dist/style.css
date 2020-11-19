@@ -295,6 +295,7 @@ h1.title {
   width: 100%;
   background-color: #f6f6f6;
   padding-bottom: 20px;
+  margin-left: 8px;
 }
 .carte h2 {
   padding-left: 20px;
@@ -712,7 +713,7 @@ footer > h2 {
 }
 
 /* Mise en place des mediaQueries et des breakpoint du site  */
-@media screen and (min-width: 378px) and (max-width: 710px) {
+@media screen and (min-width: 375px) and (max-width: 710px) {
   .container {
     text-align: center;
   }
@@ -735,6 +736,9 @@ footer > h2 {
     margin-bottom: 4%;
   }
 
+  .carte {
+    margin-left: 0;
+  }
   .carte h2 {
     padding: 0;
     margin: 4%;

@@ -341,6 +341,7 @@ h1{
   width: 100%;
   background-color: #f6f6f6;
   padding-bottom: 20px;
+  margin-left: 8px;
 }
 .restaurant{
   width: 318px;
@@ -714,7 +715,7 @@ h1{
   }
 }
 /* Mise en place des mediaQueries et des breakpoint du site  */
-@media screen and (min-width: 378px) and (max-width: 710px){
+@media screen and (min-width: 375px) and (max-width: 710px){
   .container{
     text-align: center;
     & p{
@@ -737,6 +738,7 @@ h1{
     }
   }
   .carte{
+    margin-left: 0;
     & h2{
       padding:0;
       margin: 4%;
